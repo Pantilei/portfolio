@@ -111,9 +111,9 @@ body {
       position: absolute;
       top: 0;
       right: 0;
-      width: 150%;
+      width: 200%;
       z-index: -1;
-      height: 150%;
+      height: 200%;
       background: rgba(68, 68, 68, 0.9); }
 
 h1,
@@ -320,6 +320,6 @@ main {
   main .tech i {
     font-size: 2rem; }
   .boxes div {
-    font-size: 1.2rem;
-    padding: 1.2rem 2rem;
+    font-size: 1rem;
+    padding: 1.1rem 1.8rem;
     margin-bottom: 3rem; } }
