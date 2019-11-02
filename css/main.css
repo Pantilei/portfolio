@@ -324,4 +324,5 @@ main {
     padding: 1.1rem 1.8rem;
     margin-bottom: 3rem; }
   #bg-img:after {
-    height: 150%; } }
+    height: 200%;
+    width: 200%; } }
