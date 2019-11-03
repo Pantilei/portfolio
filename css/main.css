@@ -113,7 +113,7 @@ body {
       left: 0;
       width: 100%;
       z-index: -1;
-      height: 150%;
+      height: 100%;
       background: rgba(77, 89, 105, 0.9); }
 
 h1,
@@ -300,7 +300,7 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 3vh; }
   .projects {
     grid-template-columns: 1fr; }
   h1.lg-heading,
@@ -318,11 +318,12 @@ main {
   main .tech h3 {
     font-size: 1rem; }
   main .tech i {
-    font-size: 2rem; }
+    font-size: 1rem; }
+  main .icons {
+    margin-top: 5rem; }
+    main .icons i {
+      font-size: 1.3rem; }
   .boxes div {
     font-size: 1rem;
     padding: 1.1rem 1.8rem;
-    margin-bottom: 3rem; }
-  #bg-img:after {
-    height: 200%;
-    width: 200%; } }
+    margin-bottom: 3rem; } }
