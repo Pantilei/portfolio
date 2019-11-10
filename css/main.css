@@ -92,6 +92,9 @@
 .item:nth-child(4) {
   transition-delay: 0.4s; }
 
+.item:nth-child(5) {
+  transition-delay: 0.5s; }
+
 * {
   box-sizing: border-box; }
 
@@ -268,12 +271,24 @@ main {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
+  main#home h1 {
+    margin-top: 0vh; }
   main {
     align-items: center;
     text-align: center; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+    main .techno h3 {
+      font-size: 1.5rem; }
+    main .tech h3 {
+      font-size: 1rem; }
+    main .tech i {
+      font-size: 1rem; }
+    main .icons {
+      margin-top: 5rem; }
+      main .icons i {
+        font-size: 1.3rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -300,7 +315,7 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 3vh; }
+    margin-top: 0vh; }
   .projects {
     grid-template-columns: 1fr; }
   h1.lg-heading,
