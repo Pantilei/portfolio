@@ -1,0 +1,17 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Pantilei.github.io/portfolio",
+  "scripts": {
+    "sass": "node-sass scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Pantilei Ianulov",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
+  }
+}
